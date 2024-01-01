@@ -11,6 +11,7 @@ from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START
 
 PHOTO = [
     "https://telegra.ph/file/d4bb8d4a4839cbb3f275a.jpg",
+]
 
 Mukesh = [
     [
