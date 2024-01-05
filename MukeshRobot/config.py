@@ -5,14 +5,14 @@ class Config(object):
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
     API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    API_HASH = "0330ec89ddab0d2bfdf8e263a68ec510"
+    TOKEN = "6946015140:AAEhxmmIS2VjmkyY-uQl1pt59LwI878MGeo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = "6364920674" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
-    START_IMG = ""
+    START_IMG = "https://telegra.ph//file/d8de5bff7fcfbd6b2ae5d.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    MONGO_DB_URI= "mongodb+srv://musickaleng:1234@cluster0.wsurn4s.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
     DATABASE_URL = ""  # A sql database url from elephantsql.com
     CASH_API_KEY = (
@@ -22,7 +22,7 @@ class Config(object):
     # Get your API key from https://timezonedb.com/api
 
     # Optional fields
-    CHATBOT_API="" # get it from @FallenChat_Bot using /token
+    CHATBOT_API="1868869765-fallen-plbt11tblp" # get it from @FallenChat_Bot using /token
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
     DEV_USERS = []  # User id of dev users
